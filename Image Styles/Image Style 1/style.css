@@ -1,0 +1,14 @@
+.container{
+    background: url(nature.jpg) center/cover no-repeat;
+    height: 35em;
+    width: 35em;
+}
+
+.container::before{
+    content: '';
+    position: absolute;
+    background: url(splash.png) center/cover no-repeat;
+    height: 35em;
+    width: 35em;
+    mix-blend-mode: screen;
+}
